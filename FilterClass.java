@@ -49,7 +49,7 @@ public class FilterClass {
   private static void loadBadWords() {
     int CounterFlag = 0;
     try {
-      FileReader fr = new FileReader("/home/mudigonda/Documents/SRM/Semester-3/OOPS/Assignments/Project/Database.csv");
+      FileReader fr = new FileReader("/home/hhimmmmii/Documents/Project/Database.csv");
       BufferedReader reader = new BufferedReader(fr);
       String CurrentLine = "";
       while ((CurrentLine = reader.readLine()) != null) {
