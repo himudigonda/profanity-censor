@@ -110,7 +110,7 @@ public class FilterClass {
         } catch (Exception exc) {
           // The excepetions are handled here
           exc.printStackTrace();
-          System.out.println("There is some inner try problem");
+          System.out.println("Error: inner try");
         }
       }
       // I'll close the streams and buffers
@@ -119,7 +119,7 @@ public class FilterClass {
     } catch (IOException exc) {
       // The excepetions are handled here
       exc.printStackTrace();
-      System.out.println("There some out try problem");
+      System.out.println("Error: outer try");
     }
   }
 
